@@ -13,14 +13,14 @@ body {
     height: fit-content;
     max-height: 90%;
     width: fit-content;
-    margin: 5%;
+    max-width: 960.24px;
+    margin: 3%;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-        
+    justify-content: flex-start;
 }
 
-@media only screen and (max-width: 1080px) {
-    .bigbox {justify-content: center;}
+@media only screen and (max-width: 1300px) {
+    .bigbox {justify-content: space-around;}
 } 
 /*
 @media only screen and (max-width: 1080px) {
